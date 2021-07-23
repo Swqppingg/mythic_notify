@@ -1,9 +1,8 @@
-# Mythic Notifications
-A simple notification system inspired by NoPixel's
 
 ## Please note that I did not make this script.
 
-![Image of Notification](https://i.imgur.com/shT1XWc.png)
+# Mythic Notifications
+A simple notification system inspired by NoPixel's
 
 ## Use
 To display a notification simply make a call like below (Client-Side) :
@@ -47,6 +46,3 @@ TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', 
 ```
 
 > Note: When calling through the event, you can omit the length parameter and the alert will default to 2500 ms or ~2.5 seconds
-
-##### Result:
-![Custom Styling](https://i.imgur.com/FClWCqm.png)
